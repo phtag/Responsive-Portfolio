@@ -1,0 +1,124 @@
+
+.header {
+  line-height: 100px;
+  color: #fff;
+  background: #fff;
+  width: 960px;
+  margin-left: 100px;
+  height: 60px;
+  z-index: 1;
+}
+.header-name {
+  font-family: "Georgia", "Times", "Times New Roman", "Serif";
+  background-color: #4aaaa5;
+  padding-left: 25px;
+  padding-right: 25px;
+  float: left;
+  font-size: 28pt;
+  color: white;
+  height: 100%;
+  line-height: 150%;
+}
+.nav-option {
+  float: right;
+  margin-top:20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-family: "Arial", "Helvetica Neue", "Helvetica", "Sans-serif";
+  background-color: white;
+  color: gray;
+  text-decoration: none;
+  border-right:solid 1px lightgray;
+  height: 30%;
+  line-height: 100%;
+}
+.AboutMe-container {
+  color: rgb(14, 29, 23);
+  position: relative;
+  clear: both;
+  height: 600px;
+  background-color: lightslategray;
+  float: left;
+  width: 100%;
+  overflow: auto;
+  background-image: url(../images/abstract-q-c-627-480-3.jpg); 
+}
+.AboutMe-content-header-section {
+  color: #4aaaa5;
+  font-family: "Georgia", "Times", "Times New Roman", "Serif";
+  font-size: 10pt;
+  position: relative;
+  border-bottom: 5px solid gray;
+  line-height: 50px;
+  margin-top: 10px;
+  margin-left: 5%;
+  height: 10%;
+  width: 90%;
+}
+.AboutMe-content-section {
+  font-family: "Arial", "Helvetica Neue", "Helvetica", "Sans-serif";
+  position: relative;
+  background-color: #ffffff;
+  margin-top: 20px;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom: 100px;
+  height: 90%;
+  width: 960px;
+}
+.AboutMe-content-paragraphs {
+  font-family: "Arial", "Helvetica Neue", "Helvetica", "Sans-serif";
+  position: relative;
+  background-color: #ffffff;
+  margin-top: 10px;
+  margin-left: 5%;
+  height: 60%;
+  width: 90%;
+}
+.contact-form-section {
+  margin-left: 5%;
+  margin-top: 2%;
+}
+.portfolio-section {
+  margin-left: 5%;
+  margin-top: 2%;
+}
+.portfolio-images {
+  float: left;
+  width: 30%;
+  height: 30%;
+  margin-right: 2%;
+  margin-bottom: 2%;
+}
+textarea {
+  width: 80%;
+  height: 50%;
+}
+#contact-submit-button {
+  margin-top: 5%;
+  margin-left: 5%;
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  font-size: 18pt;
+  color: white;
+  background-color: #4aaaa5;
+  padding: 5px 20px 5px 20px;
+}
+footer {
+    border-top: 5px solid #cccccc;
+    float: left;
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    clear: both;
+    color: #fff;
+    background: #666666;
+    }
+#AboutMe-header {
+  line-height: 50px;
+}
+#bio-image {
+  float: left;
+  height: 100%;
+  margin-right: 20px;
+}
