@@ -6,6 +6,7 @@
 
 header {
   width: 100%;
+  text-align: center;
 }
 
 .header {
@@ -247,16 +248,16 @@ footer {
   .my-page-container {
     width: 400px;
     margin: auto;
+  
   }
   header {
     position: static;
+    text-align: center;
   }
   .header {
-    position: relative;
     line-height: 100px;
     color: #fff;
     background: #fff;
-    margin: 0px;
     height: 60px;
     z-index: 1;
     width: 100%;
@@ -264,17 +265,14 @@ footer {
     text-align: center;
   } 
   .header-name {
-    /* width: 90%; */
-    float: left;
-    margin: 0px;
-    width: auto;
+    width: 85%;;
     text-align: center;
   }
   .my-nav-class {
     float: left;
     /* margin: 0; */
     background-color: white;
-    width: 100%;
+    width: 85%;
     text-align: left;
   }
   .nav-option {
