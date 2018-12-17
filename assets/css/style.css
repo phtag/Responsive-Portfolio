@@ -1,19 +1,22 @@
 
 .my-page-container {
-  width: 1000px;
+  width: 828px;
   margin: auto;
+}
+
+header {
+  width: 100%;
 }
 
 .header {
   line-height: 100px;
   color: #fff;
   background: #fff;
-  /* width: 960px; */
-  width: auto;
-  margin-left: 100px; 
+  margin-left: 50px; 
   height: 60px;
   z-index: 1;
-}
+} 
+
 .header-name {
   font-family: "Georgia", "Times", "Times New Roman", "Serif";
   background-color: #4aaaa5;
@@ -124,7 +127,7 @@ textarea {
   margin-top: 20px;
 }
 footer {
-    border-top: 5px solid #cccccc;
+    border-top: 5px solid #4aaaa5;
     float: left;
     width: 100%;
     height: 50px;
@@ -141,7 +144,7 @@ footer {
   float: left;
   width: 25%;
   margin-right: 20px;
-}
+ }
 
 .my-body-container-interior {
   position: relative;
@@ -158,7 +161,7 @@ footer {
   border-bottom: 5px solid #cccccc;
 }
 .my-body-container-content {
-    padding: 20px;
+    padding-bottom: 20px;
     background-color: white;
     font-family: "Arial", "Helvetica Neue", "Helvetica", "Sans-serif";
     position: relative;
@@ -186,11 +189,21 @@ footer {
   height: 60%;
   margin: auto;
 }
-
+.my-nav-class {
+  /* margin: 0; */
+  background-color: white;
+  width: 100%;
+  text-align: right;
+}
+.my-spacer {
+  float: right;
+  width: 20%;
+  background-color: yellow;
+}
 @media screen and (max-width: 980px) {
   /* The body's bg color will be #333 */
   body {
-    background-color: red;
+    background-color: white;
   }
   .my-page-container {
     width: 828px;
@@ -201,17 +214,32 @@ footer {
 @media screen and (max-width: 768px) {
   /* The body's bg color will be #333 */
   body {
-    background-color: rgb(255, 208, 0);
+    background-color:white;
   }
   .my-page-container {
     width: 600px;
+    margin: auto;
+  }
+  .header {
+    line-height: 100px;
+    color: #fff;
+    background: #fff;
+    margin: 0px;
+    height: 60px;
+    z-index: 1;
+    width: 100%;
+  } 
+  .my-body-container-interior {
+    position: relative;
+    background-color: white;
+    width: 95%;
     margin: auto;
   }
 }
 
 @media screen and (max-width: 640px) {
   body {
-    background-color: rgb(0, 4, 255);
+    background-color: white;
 
   }
 
@@ -220,5 +248,36 @@ footer {
     width: 400px;
     margin: auto;
   }
-
+  header {
+    position: static;
+  }
+  .header {
+    position: relative;
+    line-height: 100px;
+    color: #fff;
+    background: #fff;
+    margin: 0px;
+    height: 60px;
+    z-index: 1;
+    width: 100%;
+    background-color: #4aaaa5;
+    text-align: center;
+  } 
+  .header-name {
+    /* width: 90%; */
+    float: left;
+    margin: 0px;
+    width: auto;
+    text-align: center;
+  }
+  .my-nav-class {
+    float: left;
+    /* margin: 0; */
+    background-color: white;
+    width: 100%;
+    text-align: left;
+  }
+  .nav-option {
+    padding-bottom: 10px;
+  }
 }
